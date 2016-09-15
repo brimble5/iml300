@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NOELLE BRIMBLE- HW1 - The good, the bad, the ugly</title>    
+</head>
+<body>    
+    <h1>Website Critique</h1>
+    <h2>Typography</h2>
+    
+    <!--  =-=-=-=-=-=-=-=-=-=-=-= -->
+    <!--  Good Typography Example -->
+    <!--  =-=-=-=-=-=-=-=-=-=-=-= -->
+    
+    <div>
+        <h3>1. Good Typography</h3>        
+        <a href="https://www.bigcartel.com/">
+            <img src="classesfall2016/iml300/assignments/images/goodtextography" alt="good typography">
+        </a>
+        <p>
+            Big Cartel has created a beautiful homepage, that includes still images and video. It is casual, yet clean and professional, and everything is very easy to locate. 
+        </p>
+    </div>
+
+    
+    <!--  =-=-=-=-=-=-=-=-=-=-=-= -->
+    <!--  Bad Typography Example -->
+    <!--  =-=-=-=-=-=-=-=-=-=-=-= -->
+    
+    <div>
+        <h3>2. Bad Typography</h3>        
+        <a href="http://www.roverp6cars.com/">
+            <img src="classesfall2016/iml300/assignments/images/badtextography" alt="bad typography">
+        </a>
+        <p>
+            MGBD Parts and Services website is just ugly. It has weird flashing captions, and an annoying font. It makes their website look cheap and ugly. 
+        </p>
+    </div>    
+        
+
+</body>
+</html>
