@@ -1,58 +1,125 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title> Noelle's IML 300 Homepage
-</title>
-
+<title>Noelle's Index</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-    body:before {
-      content: '';
-position: absolute;
-        width: 60%;
-        height: 80%;
-        top:10%;
-        left: 20%;
-        background:#f780f5;
-        z-index: -1;
+body,h1,h2{font-family: "Raleway", sans-serif, }
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg{
+    min-height: 100%;
+    background-position:center;
+    background-size: cover;
+}
+    .bgimg2 {
+        min-height: 100%;
+    background-position:center;  
     }
-    h1{
-        color:#ffc9f2;
-        text-align: center;
-    }
-    
-    ul a {
-        color:#ffc9fe;
-        font-size: 35px;
-        text-align:justify;
-        margin-left: 290px;     
-    }
-    
-    h2 {
-            color:#ffc9f2;
-        text-align: center;
-            font-size: 12px;
-        margin-top: 320px;
-        } 
-    </style>
-</head>
 
+    
+</style>
 <body>
+<body background= "assignments/patterns.jpg"
+    background-position: 200% 100%;
+>
 
- 
-<h1>
-    Noelle's IML 300 Page
-   </h1>
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Noelle Brimble</h1>
+    <h2>University of Southern California</h2>
+    <h2><b>IML 300</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <ul class="w3-navbar w3-white w3-center w3-padding-8 w3-opacity-min w3-hover-opacity-off">
+    <li style="width:25%"><a href="#Home" class="w3-margin-left w3-round">Home</a></li>
     
-      <ul>
- 
-  <li><a href="assignments/assignments_landing_page.html">Assignments</a></li>
-  <li><a href="links.html">Links</a></li>
-  <li><a href="contact.html">Contact</a></li>
-  <li><a href="about.html">About</a></li>
-</ul>
+    <li style="width:25%"><a href="#Assignments" class="w3-round">Assignments</a></li>
     
-<h2>
-    I tried using a template, but it messed up a lot of my links. I reverted to my original homepage look, because I like it. 
-</h2>
-    </body>
+    <li style="width:25%"><a href="#Links" class="w3-round">Links</a></li>
+    
+    <li style="width:25%"><a href="#Aboutme" class="w3-margin-right w3-round w3-hover-opacity-off">About Me</a></li>
+  </ul>
+</div>
+
+<!-- Assignments -->
+<div class="w3-container w3-padding-64 
+ w3-pale-red w3-grayscale-min" id="assignments">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey">
+    <b>Assignments</b></h1>
+    
+    
+    
+    <p><i>
+        
+  <li><a href="assignments/week2_goodbadinnovative.html">
+  Week 2: The Good, The Bad, And The Innovative</a></li>
+  <li><a href="assignments/constitution.html">Week 3: Constitution Mark Up</a></li>
+  <li><a href="assignments/week6_homework.html">Week 6: My First Flow Chart</a></li>
+<li><a href="assignments/dream_concert_letter.html">Dream Concert Letter of Intent</a></li>
+
+    </i>
+     
+     <ul>
+
+  <li><a href="assignments_landing_page.html">
+      </ul>
+      
+   
+  </div>
+</div>
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Photography  <br>     
+    Film
+    <br>  Programing</h1><br>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="Aboutme">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>About Me</b></h1>
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>I Like...</h2>
+        <p>I love dogs, and have recently became a cat person as well. I like to swim, to watch movies, and to eat or cook with my friends. My favorite foods include, Gluten free pizza -I'm allergic-, GF cookies, donuts, cakes, and random health smoothies.</p>
+      </div>
+      <div class="w3-half">
+        <h2>I Dislike...</h2>
+        <p>I dislike Math, running, country music, rude people, and Tim Burton movies.</p>
+      </div>
+      <div>
+       <div class="w3-half">
+      <h3> Media</h3>
+      <p> My preferred creative media is film and video, however I am curious to get involved with interactive media and virtual reality. </p>
+          </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="Email">
+  <p class="w3-large">Kindly Let Me Know What You Think!</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-btn w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Email me!</button>
+  </p>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
 </html>
+
