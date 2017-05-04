@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Noelle's Inspirations
+</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+<link rel="stylesheet" type="text/css" href="portfolio.css">
+
+<link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
+
+<style>
+    
+ h1{
+    font-family: 'Cormorant', serif;
+       color: #b81118;
+        text-align:center;
+     font-size: 55px;  
+     margin-bottom: auto;
+    }
+h2{
+     font-family: 'Cormorant', serif;
+       color: #3a3c53;
+        text-align:center;
+         font-size: 95px;
+    margin-top: auto;
+}
+
+.pic    {
+position:relative;
+display: none;
+}
+
+#pics {
+width:100%;
+height:100%;
+margin-left: auto;
+margin-right: auto;
+}
+</style>
+
+
+<script src="http://code.jquery.com/jquery-1.4.4.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    
+    delay=200;
+    fade=500;
+  
+    
+$(document).ready(function(){ 
+   mypics= $('.pic')    
+    
+   mypics.each(function(x){
+       currentPic = $(this)
+console.log( currentPic,  i );       
+   
+    currentPic
+         .delay(getDelayAmount(x))
+         .fadeIn(fade);
+   })
+   
+   function getDelayAmount(index) {
+       T = (delay+fade)*(index) - 500;
+       return T;
+   }
+</script>
+   
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+</head>
+
+<body>
+
+    <h1>
+    noelle brimble
+    </h1>
+    
+    <h2>
+  my inspirations
+    </h2>
+
+<!--
+<div class="flip">
+<div class="front"> 
+        <img src="adele.jpg" alt="" />
+    </div> 
+    <div class="back">
+        <img src="degas.jpg" />
+    </div> 
+</div> 
+
+<div id ="flip" class="flip-horizontal" style="perspective: 600px; position; relative; transform-style: preserve-3d;">
+<div class="front" style="height:100%; width:100%; backface-visibility:hidden; transform-style: perserve-3d;position:absolute; z-index:1;transition:all 0.5s ease-out; transform: rotateY (0deg);"></div>
+<div class="back" style="transform: rotateY (-180deg); height:100%; width:100%;backface-visibilty: hidden; transform-style: perserve-3d;position: absolute; z-index:0; transitions: all 0.5s ease-out;"></div>
+</div>
+-->
+
+
+<div id="pics">
+<img src="adele.jpg" width="300px" height="300px" class="pic" />
+<img src="noir.jpg"width="300" height="300" class="pic" />
+<img src="lemonade.jpg"width="300" height="300" class="pic" />
+<img src="budapest.jpg"width="300" height="300" class="pic" />
+<img src="degas.jpg"width="300" height="300" class="pic" />
+<img src="drunk.jpg"width="300" height="300" class="pic" />
+<img src="howard.jpg"width="300" height="300" class="pic" />
+<img src="usc.jpg"width="300" height="300" class="pic" />
+</div>
+
+
+</body>
+</html>

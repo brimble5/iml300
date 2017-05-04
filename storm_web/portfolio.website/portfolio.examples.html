@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="portfolio.css">
+
+<style>
+body,h2,h3,h4,h5,h6 {font-family: 'Cormorant', serif }
+    
+    h1{
+    font-family: 'Cormorant', serif;
+       color: #b81118;
+        text-align:center;
+         font-size: 90px;
+    }
+    p {
+       font-family: 'Cormorant', serif;
+       color: #3a3c53;
+        text-align:center;
+         font-size: 18px; 
+    }
+    
+</style>
+<body class="w3-lightgrey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="/w3images/avatar_g2.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4 class="w3-padding-0"><b>NOELLE BRIMBLE</b></h4>
+    
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+   
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="#" class="w3-hover-white w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
+    <a href="#" class="w3-hover-white w3-hover-text-purple"><i class="fa fa-instagram"></i></a>
+    <a href="#" class="w3-hover-white w3-hover-text-yellow"><i class="fa fa-snapchat"></i></a>
+    <a href="#" class="w3-hover-white w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
+    <a href="#" class="w3-hover-white w3-hover-text-light-blue"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="w3-hover-white w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+     
+     
+    
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="poster_cyberpunk.jpg" alt="cyberpunk" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Original Cyberpunk Poster</b></p>
+        <p> Created as a commentary of how popular cyberpunk movies share similar female paradigms and themes as those of the 1950's. I appropriated Richard Hamilton's "Just What Is It That Makes Today's Homes So Different, So Appealing" because it uses cultural references of the 1950's and gender stereotypes, in a way that reminded me of cyberpunk movies.  </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="poster_dc.jpg" alt="concert" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Dream Concert Website</b></p>
+        <p>In my Coding For The Web class, we were challenged to design a imaginary concert concept, and build a website premoting it, using HTML5 and CSS. My concert was a group powerful women from all around the world. These artist use their music for social and political reform and empowerment, and together they form their own cultural revolution. </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="tree.png" alt="tree" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Freeze Frame from "Tree"</b></p>
+        <p>A freeze frame from one of my first short films, called "Tree." Tree discusses.... and how this also applies to how we percieve other humans. The narrative specifically follows me through my journey to find myself.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="Damaskprint.png" alt="damask" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Modern Damask Print</b></p>
+        <p>As a design exercise, I created this original damask print, using illustrator. I was inspired by the recent women's marches around the world, and wanted to remix the original "Rosie the Riveter," to represent women of different ethnicities and races, coming together as a force of nature.</p>
+      </div>
+    </div>
+  </div>
+
+    <div>
+        <h4>Technical Skills</h4>
+    <!-- Progress bars / Skills -->
+    
+    <div class="w3-grey">
+      <div class="w3-container w3-pink w3-padding w3-center" style="width:90%">90%</div>
+    </div>
+     <p>Film and TV Production and Editing</p>
+     
+    <div class="w3-grey">
+      <div class="w3-container w3-pink w3-padding w3-center" style="width:85%">85%</div>
+    </div>
+      <p>Design</p>
+      
+    <div class="w3-grey">
+      <div class="w3-container w3-pink w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p>Coding For The Web </p>
+    <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+       <link rel="resume" href="resume.jpg">
+        <i class="fa fa-download w3-margin-right"></i>Download Resume
+      </button>
+    </p>
+    <hr>
+    </div>
+    
+    
+    
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-blue-gray">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-light-gray">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-gray"></i></p>
+        <p>Brimble@usc.edu</p>
+      </div>
+      <div class="w3-third w3-pink">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-grey"></i></p>
+        <p>Los Angeles, US</p>
+      </div>
+      <div class="w3-third w3-light-gray">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-gray"></i></p>
+        <p>512-574-8466</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-group">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-group">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-group">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-pink w3-padding-large w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-light-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>More Info</h3>
+        <p>Noelle Brimble</p>
+        <p> Media Arts + Practice, BA </p>
+        <p> School of Cinematic Arts, University of Southern California </P>
+      
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
